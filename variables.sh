@@ -20,3 +20,17 @@ echo $name training - Faculty $faculty
 # When to use flower brackets{} while accessing variables - In case if you have to print string with combination of variables
 apple=20
 echo apple price - ${apple}Dollars  # here we are adding limitations to apple by adding flower braces. here apple is the variable dollar is the string
+
+# Variable substitutions:-
+# command substitution --> You can declare a variable by executing a command and store the output in a variable
+# syntax:
+# var=$(command)
+# Arithmetic substitution --> You can declare a variable by solving a arithmetic expression
+# syntax:
+# var=$((1+2-3/4)) here we use double barces
+
+date=$(date)
+echo Today date is - $date
+
+add=$((2+3+4))
+echo 2+3+4 = $add
