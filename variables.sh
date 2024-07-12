@@ -42,9 +42,10 @@ echo value of x from CLI - $x
 # x=100 y=200 bash variables.sh
 echo value of x from CLI - $x
 echo value of y from CLI - $y
-# Approach 2 - bash variables.sh 100 200 ( These variables $1 ,$2, ..$n, $*,$# are called as special variables in shell)
+# Approach 2 - bash variables.sh 100 200 ( These variables $1 ,$2, ..$n, $*,$# are called as special variables in shell) ( here the scope of the values are limited to a range)
 echo first argument - $1  # here first input/argument is 100
 echo second argument - $2 # here second input/argument is 200
 echo all arguments - $*
 echo argument count - $#
-
+# Approach 3 - export z=500 ; bash variables.sh (here scope of a variable is not limited to a range)
+echo environment variable z - $z
