@@ -29,3 +29,9 @@ SAMPLE
 
 # variables in functions
 # -->  Declare variable in function, Main program can access it and vice - versa
+
+DEMO() {
+  echo first argument - $1
+}
+
+DEMO abc
