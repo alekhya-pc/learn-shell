@@ -15,10 +15,10 @@
 
 # example
 
-LOVE() {
-  echo Alekhya Narendhar
+SAMPLE() {
+  echo sample function
 }
 
-LOVE
-LOVE
-LOVE
+SAMPLE
+SAMPLE
+SAMPLE
