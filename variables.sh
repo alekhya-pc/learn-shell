@@ -35,6 +35,16 @@ echo Today date is - $date
 add=$((2+3+4))
 echo 2+3+4 = $add
 
-#you access variables from CLI
+#you access variables from CLI(command line interface)
 # Approach 1 - x=100 bash variables.sh
 echo value of x from CLI - $x
+# to access two values at a time
+# x=100 y=200 bash variables.sh
+echo value of x from CLI - $x
+echo value of y from CLI - $y
+# Approach 2 - bash variables.sh 100 200
+echo first arguement - $1  # here first input/arguement is 100
+echo second arguement - $2 # here second inpu/arguement is 200
+
+  ;;
+esac
