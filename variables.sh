@@ -49,3 +49,11 @@ echo all arguments - $*
 echo argument count - $#
 # Approach 3 - export z=500 ; bash variables.sh (here scope of a variable is not limited to a range)
 echo environment variable z - $z
+
+# variable names can have alphabets, numbers and _
+# variable name sytles:-
+# example: variable name is coursename
+# camel case- courseName
+# pascal case- CourseName
+# snake case- course_name
+# UNIX Way (Later Linux) - COURSE_NAME

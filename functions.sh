@@ -30,8 +30,13 @@ SAMPLE
 # variables in functions
 # -->  Declare variable in function, Main program can access it and vice - versa
 
+# examples of including variables in functions
 DEMO() {
   echo first argument - $1
 }
 
 DEMO abc
+
+# variable names should be using alphabets and nubmers and _(underscore)
+#if values are having any special characters then double quote it.
+
