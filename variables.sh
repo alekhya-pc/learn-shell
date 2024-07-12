@@ -34,3 +34,7 @@ echo Today date is - $date
 
 add=$((2+3+4))
 echo 2+3+4 = $add
+
+#you access variables from CLI
+# Approach 1 - x=100 bash variables.sh
+echo value of x from CLI - $x
