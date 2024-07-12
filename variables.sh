@@ -43,8 +43,6 @@ echo value of x from CLI - $x
 echo value of x from CLI - $x
 echo value of y from CLI - $y
 # Approach 2 - bash variables.sh 100 200
-echo first arguement - $1  # here first input/arguement is 100
-echo second arguement - $2 # here second inpu/arguement is 200
+echo first argument - $1  # here first input/argument is 100
+echo second argument - $2 # here second input/argument is 200
 
-  ;;
-esac
