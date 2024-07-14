@@ -19,3 +19,5 @@ echo -e "\e[33mHello world in Yellow Color\e[0m"
 echo -e "\e[34mHello world in Blue Color\e[0m"
 echo -e "\e[35mHello world in Magenta Color\e[0m"
 echo -e "\e[36mHello world in Cyan Color\e[0m"
+
+echo -e "Hello\n\nWorld"  # \n helps to print the world in next line
