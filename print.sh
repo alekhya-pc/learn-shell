@@ -21,3 +21,5 @@ echo -e "\e[35mHello world in Magenta Color\e[0m"
 echo -e "\e[36mHello world in Cyan Color\e[0m"
 
 echo -e "Hello\n\nWorld"  # \n helps to print the world in next line
+
+echo -e "Hello\t\tWorld"  # \t helps to give tab space.
