@@ -20,3 +20,5 @@ for i in apple banana orange ; do
   echo Fruit Name - $i
   sleep 1
 done
+
+# an example for loop function can be seen used for shipping component - common.sh file for loading schemas.
